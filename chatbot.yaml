@@ -1,15 +1,5 @@
-name: basic-starter-bot
-
-entryPoint: main.sc
-
-botEngine: v2
-language: en
-
-tests:
-  include:
-    - test.xml
-
-nlp:
-  intentNoMatchThresholds:
-    phrases: 0.2
-    patterns: 0.2
+chatbot:
+  name: WeatherCurrencyBot
+  description: Бот-помощник для получения информации о погоде и курсах валют
+  language: ru
+  mainScript: main.sc
